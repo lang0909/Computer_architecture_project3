@@ -1,7 +1,7 @@
 sce212cache: main.c
 	gcc -g -O2 $^ -o $@
 clean:
-	rm -rf *~sce212cache
+	rm -rf sce212*
 
 test: sce212cache test_simple test_milc test_gcc test_libquantum
 
